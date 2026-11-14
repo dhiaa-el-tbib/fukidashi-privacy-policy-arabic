@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية — Fukidashi</title>
+<style>
+  :root { --bg:#0e0e12; --fg:#f4f2ee; --muted:#a9a7b2; --accent:#C9A6FF; --card:#17171e; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.7 system-ui, "Segoe UI", Tahoma, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:28px; margin:0 0 4px; } h2 { color:var(--accent); font-size:19px; margin-top:32px; }
+  p, li { color:var(--fg); } .muted { color:var(--muted); }
+  section { background:var(--card); border-radius:16px; padding:8px 20px 16px; margin-top:16px; }
+  [lang=en] { direction:ltr; text-align:left; }
+</style>
+</head>
+<body>
+<main>
+<h1>سياسة الخصوصية</h1>
+<p class="muted">تطبيق «Fukidashi - مترجم المانغا» — آخر تحديث: 14 نوفمبر 2026 — <a lang="en" href="privacy-policy-en.html" style="color:var(--accent)">English</a></p>
+
+<section>
+<h2>المطوّر</h2>
+<ul>
+  <li><b>التطبيق:</b> Fukidashi - Manga Translator (معرّف الحزمة: <span lang="en">com.bouchetara.fukidashi</span>)</li>
+  <li><b>المطوّر:</b> Dhiaa Elhak Bouchetara — مطوّر مستقل، وهو المسؤول عن هذا التطبيق وعن هذه السياسة.</li>
+  <li><b>البريد الإلكتروني:</b> <a href="mailto:bouchetaradhiaa@gmail.com" style="color:var(--accent)">bouchetaradhiaa@gmail.com</a></li>
+</ul>
+</section>
+
+<section>
+<h2>الخلاصة</h2>
+<ul>
+  <li>لا نملك خوادم، ولا نجمع أي بيانات عنك، ولا توجد حسابات أو إعلانات أو أدوات تحليل.</li>
+  <li>صور الشاشة تُعالَج على هاتفك فقط ولا تُحفظ ولا تُرسَل إلى أي مكان.</li>
+  <li>لا يغادر أي نص هاتفك إلا إذا اخترت بنفسك محرك Gemini وأدخلت مفتاحك الخاص.</li>
+</ul>
+</section>
+
+<section>
+<h2>التقاط الشاشة</h2>
+<p>عند الضغط على الفقاعة العائمة يلتقط التطبيق إطاراً واحداً من الشاشة بإذنك (MediaProjection)، ثم يقص المنطقة التي تحددها ويقرأ النص منها على الهاتف باستخدام Google ML Kit. تُحذف الصورة من الذاكرة بعد عرض الترجمة، ولا تُكتب على التخزين ولا تُرسَل عبر الإنترنت. بين ضغطة وأخرى لا يلتقط التطبيق أي شيء.</p>
+</section>
+
+<section>
+<h2>محركات الترجمة</h2>
+<ul>
+  <li><b>المحرك السريع (ML Kit):</b> يترجم على الهاتف دون إنترنت. يُنزَّل نموذج كل لغة مرة واحدة من خوادم Google.</li>
+  <li><b>الجودة العالية (TranslateGemma):</b> اختياري، يترجم على الهاتف دون إنترنت. يُنزَّل النموذج مرة واحدة من Hugging Face عند طلبك.</li>
+  <li><b>Gemini (اختياري):</b> عند اختياره فقط، يُرسَل <b>نص الفقاعة المقروء</b> (وليس الصورة) مع آخر بضع فقاعات من نفس الجلسة ومصطلحات قاموسك ذات الصلة إلى Google Gemini API باستخدام مفتاحك الخاص. تخضع هذه البيانات لشروط Google وسياسة خصوصيتها؛ وقد تستخدم Google المحتوى المرسل عبر الفئة المجانية من Gemini API لتحسين خدماتها. لا تستعمل Gemini مع نصوص لا ترغب بمشاركتها.</li>
+</ul>
+<p>عند تنزيل النماذج ترى الخوادم المعنية (Google أو Hugging Face) عنوان IP الخاص بك كما في أي تنزيل من الإنترنت.</p>
+</section>
+
+<section>
+<h2>ما يُحفظ على هاتفك</h2>
+<ul>
+  <li>إعداداتك (اللغات والمحرك) وقاموس المصطلحات.</li>
+  <li>مفتاح Gemini إن أدخلته، مشفّراً بمفتاح من مخزن أندرويد الآمن (Keystore)، ولا يُدرج في النسخ الاحتياطي.</li>
+  <li>نماذج اللغات التي اخترت تنزيلها.</li>
+</ul>
+<p>تُحذف كل هذه البيانات عند إزالة التطبيق، ويمكنك حذف المفتاح والنماذج والمصطلحات من داخل التطبيق في أي وقت.</p>
+</section>
+
+<section>
+<h2>الاحتفاظ بالبيانات لدى الأطراف الثالثة</h2>
+<p>نحن لا نحتفظ بأي بيانات عنك لأننا لا نملك خوادم. لكن التطبيق يستعمل خدمات من أطراف ثالثة، وكل منها يحتفظ بالبيانات وفق سياسته:</p>
+<ul>
+  <li><b>Google Gemini API (فقط إن اخترته):</b> يستلم نص الفقاعة والسياق المذكور أعلاه مع مفتاحك. تحتفظ Google بهذه البيانات وتعالجها وفق <a lang="en" href="https://ai.google.dev/gemini-api/terms" style="color:var(--accent)">شروط Gemini API الإضافية</a> و<a href="https://policies.google.com/privacy" style="color:var(--accent)">سياسة خصوصية Google</a>. في الفئة المجانية قد تحتفظ Google بالمدخلات والمخرجات وقد يراجعها بشر لتحسين خدماتها؛ وفي الفئة المدفوعة تُحفظ لفترة محدودة لكشف إساءة الاستخدام فقط. الحساب والمفتاح ملكك، والتحكم في هذه البيانات يتم من حسابك لدى Google.</li>
+  <li><b>Google ML Kit (قراءة النص والترجمة السريعة):</b> المعالجة تتم على الهاتف ولا تُرسَل الصور ولا النصوص. قد يتصل ML Kit بخوادم Google لتنزيل النماذج وتحديثاتها، ويرسل مقاييس تقنية مجهولة عن أداء الخدمة واستعمالها (مثل نوع الجهاز وزمن المعالجة) وفق <a lang="en" href="https://developers.google.com/ml-kit/terms" style="color:var(--accent)">شروط ML Kit</a>.</li>
+  <li><b>Hugging Face (نموذج الجودة العالية، فقط إن نزّلته):</b> يرى عنوان IP وطلب التنزيل ويحتفظ بسجلاته وفق <a href="https://huggingface.co/privacy" style="color:var(--accent)">سياسة خصوصية Hugging Face</a>.</li>
+  <li><b>Google Play:</b> تجمع Google Play بيانات التثبيت والأعطال وفق سياستها الخاصة، وليس من خلال التطبيق.</li>
+</ul>
+<p>للتوقف عن إرسال أي بيانات إلى Gemini: اختر محركاً آخر أو احذف المفتاح من التطبيق. ولحذف كل ما على الهاتف: احذف البيانات من الإعدادات أو أزل التطبيق.</p>
+</section>
+
+<section>
+<h2>الأذونات</h2>
+<ul>
+  <li><b>العرض فوق التطبيقات:</b> لإظهار الفقاعة العائمة والترجمة فوق تطبيق القراءة.</li>
+  <li><b>التقاط الشاشة وخدمة الواجهة الأمامية:</b> لالتقاط الإطار عند ضغطك على الفقاعة فقط.</li>
+  <li><b>الإشعارات:</b> لإشعار التشغيل وزر الإيقاف.</li>
+  <li><b>الإنترنت:</b> لتنزيل النماذج، ولـ Gemini إن اخترته.</li>
+</ul>
+</section>
+
+<section>
+<h2>الأطفال</h2>
+<p>التطبيق غير موجّه للأطفال دون 13 عاماً ولا يجمع بيانات عن أي مستخدم.</p>
+</section>
+
+<section>
+<h2>التغييرات على هذه السياسة</h2>
+<p>إذا تغيّرت هذه السياسة، تُنشر النسخة الجديدة في هذه الصفحة مع تاريخ «آخر تحديث» جديد.</p>
+</section>
+
+<section>
+<h2>التواصل</h2>
+<p>لأي سؤال عن الخصوصية: <a href="mailto:bouchetaradhiaa@gmail.com" style="color:var(--accent)">bouchetaradhiaa@gmail.com</a></p>
+</section>
+
+</main>
+</body>
+</html>
